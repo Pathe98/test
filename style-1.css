@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    overflow: hidden;
+    position: relative;
+}
+.card0{
+    background-image: url(product-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+}
+.card0 p{
+    position: absolute;
+    background-color: rgb(9, 189, 9);
+    width: 40px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+.icone{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    transform: translate(-25%);
+    transition: all 0.6s;
+    transform: translateY(50px);
+}
+.card a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.icone a i{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 5px;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+.icone a i:hover{
+    color: white;
+    background-color: rgb(230, 12, 12);
+}
+.card:hover .icone{
+    transform: translateY(-10px);
+}
+.card .row-info{
+    text-align: center;
+    margin-top: 20px;
+}
+.card .row-info h6{
+    margin-bottom: 2px;
+}
+.card .row-info h6 a{
+   color: rgb(71, 69, 69);
+   font-weight: lighter;
+   font-size: 15px;
+}
+.card .row-info i{
+    font-size: 10px;
+    color: rgb(151, 151, 4);
+}
+.card .row-info h5{
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+    /*
+.card img{
+    width: 60%;
+    transition: all 0.3s;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+ img{
+    transform: translateY(-10px); 
+}
+
+
+
+
+
+
+
+.card:hover .icone {
+    transform: translateY(-20px);
+}
+
+.card:hover .para{
+    pos
+}
